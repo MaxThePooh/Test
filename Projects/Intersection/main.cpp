@@ -797,8 +797,7 @@ private:
 int main(int args,char** argv)
 {
     srand(std::clock());
-//    App a(new sf::RenderWindow(sf::VideoMode(1000,1000),"SFML",sf::Style::Titlebar));
-//    a.run();
-    randn(LONG_MAX);
+    App a(new sf::RenderWindow(sf::VideoMode(1000,1000),"SFML",sf::Style::Titlebar));
+    a.run();
     return 0;
 }
